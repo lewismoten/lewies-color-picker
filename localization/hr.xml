@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Croatian" code="hr">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Boja Berac</Title>
+	<About>Lewinsky Boja Berac
+inacici 1.1
+
+Ovaj formalan je oformljen mimo Lewinsky Cestica in Svibanj od 2004.
+Internet simulirati boja berac in popularan izracunavanje izdržljivosti pomocu grafickog prikaza aplikacija.
+Internet popuštanje korisnik vidni put to izabrati boja from velik i dinamican paleta.
+
+Gostovanje autorstvo www stranica?
+www.lewismoten.com
+</About>
+	<BadNumber> broj izmedu {0} i {1} treba. Najbliži vrijednost umetnuti.</BadNumber>
+	<SelectAColor>Odabran boja:</SelectAColor>
+	<Recent>u zadnje vrijeme</Recent>
+	<WebSafe>
+		<Image tooltip="upozorenje ne tkanje siguran boja"></Image>
+		<Color tooltip="Klik to odabran tkanje siguran boja"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>u redu</OK>
+		<Cancel>opozvan</Cancel>
+		<About>o</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="nijansa" measurement="°">N:</Hue>
+		<Saturation tooltip="zasicenje" measurement="%">Z:</Saturation>
+		<Brightness tooltip="svjetlost" measurement="%">S:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0}: Creven = {1}, Zelen = {2}, Plava boja = {3}">
+		<Red tooltip="crven">C:</Red>
+		<Green tooltip="Zelen">Z:</Green>
+		<Blue tooltip="Plava boja">P:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

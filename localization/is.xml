@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Icelandic" code="is">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Kölnarvatn Tínslumaður</Title>
+	<About>Lewies Kölnarvatn Tínslumaður
+útgáfa 1.1
+
+This mynd var skapa við Lewis Rykögn í Mega af 2004.
+Það gera sér upp the Kölnarvatn tínslumaður í a vinsæll teiknun umsókn.
+Það gefa notandi a sjón- vegur til velja Kölnarvatn frá a stór og dynamic litaspjald.
+
+Heimsókn the ritstörf vefur blaðsíða?
+www.lewismoten.com
+</About>
+	<BadNumber>A tala á milli {0} og {1} er þurfa. Loka gildi bæta inn í.</BadNumber>
+	<SelectAColor>Velja a Kölnarvatn:</SelectAColor>
+	<Recent>Nýlegur:</Recent>
+	<WebSafe>
+		<Image tooltip="viðvörun ekki a vefur öruggur Kölnarvatn"></Image>
+		<Color tooltip="Smellur til velja vefur öruggur Kölnarvatn"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Allt í lagi</OK>
+		<Cancel>Hætta við</Cancel>
+		<About>Óður í</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Litblær" measurement="°">L:</Hue>
+		<Saturation tooltip="Gegnsýring" measurement="%">G:</Saturation>
+		<Brightness tooltip="Birta" measurement="%">B:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rgb({1}, {2}, {3})">
+		<Red tooltip="Rauður">R:</Red>
+		<Green tooltip="Grænn">G:</Green>
+		<Blue tooltip="Blár">B:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

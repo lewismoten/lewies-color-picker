@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="German" code="de">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Färben Sie Picker</Title>
+	<About>Lewies Farbe Picker
+version 1.1
+
+Diese Form wurde von Lewis Moten von 2004 im Mai geschaffen.
+Es simuliert die Farbe picker in einer populären Grafikanwendung.
+Es gibt Verbrauchern einen visuellen Weg, Farben von einer großen und dynamischen Palette zu wählen.
+
+Besuchen Sie die Autorweb-Seite?
+www.lewismoten.com
+</About>
+	<BadNumber>Eine Zahl zwischen {0} und {1}. Die nächsten Werte haben eingefügt.</BadNumber>
+	<SelectAColor>Wählen Sie eine Farbe aus:</SelectAColor>
+	<Recent>Neu:</Recent>
+	<WebSafe>
+		<Image tooltip="Warnung: Keine Gewebe sichere Farbe"></Image>
+		<Color tooltip="Klicken, Gewebe sichere Farbe auszuwählen"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Zustimmung</OK>
+		<Cancel>Heben Sie auf</Cancel>
+		<About>Ungefähr</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Farbe" measurement="°">F:</Hue>
+		<Saturation tooltip="Sättigung" measurement="%">S:</Saturation>
+		<Brightness tooltip="Helligkeit" measurement="%">H:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rgb({1}, {2}, {3})">
+		<Red tooltip="Rot">R:</Red>
+		<Green tooltip="Grün">G:</Green>
+		<Blue tooltip="Blau">B:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

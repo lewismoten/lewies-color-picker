@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Norwegian" code="no">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Farg Picker</Title>
+	<About>Lewies Farge Picker
+versjon 1.1
+
+Denne formen skapte av Lewis Moten i Kan av 2004.
+Det simulerer fargen picker i en populær grafikkanvendelse.
+Det gir brukere en visuell måte velge farger fra en stor og dynamisk palett.
+
+Besøk forfattervevsiden?
+www.lewismoten.com
+</About>
+	<BadNumber>Et antall mellom æ0å og æ1å krever. Den nærmeste verdi tilføyet.</BadNumber>
+	<SelectAColor>Utvalgt en farge:</SelectAColor>
+	<Recent>Nylig:</Recent>
+	<WebSafe>
+		<Image tooltip="Varsling: ikke et vev sikker farge"></Image>
+		<Color tooltip="Klikk velge ut vev sikker farge"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Samtykke</OK>
+		<Cancel>Kanseller</Cancel>
+		<About>Omtrent</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Hue" measurement="°">H:</Hue>
+		<Saturation tooltip="Metning" measurement="%">M:</Saturation>
+		<Brightness tooltip="Klarhet" measurement="%">K:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rgb({1}, {2}, {3})">
+		<Red tooltip="Rød">R:</Red>
+		<Green tooltip="Grønn">G:</Green>
+		<Blue tooltip="Blå">B:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

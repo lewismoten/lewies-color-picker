@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Hungarian" code="hu">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Befest Szedomunkás</Title>
+	<About>Koemelo kapocs Befest Szedomunkás
+változat 1.1
+
+Ez forma volt teremtett mellett Koemelo kapocs Porszemecske -ban Május -ból 2004.
+Ez tettet a befest szedomunkás -ban egy népszeru grafikus alkalmazás.
+Ez ad használók egy látási út -hoz választ befest -ból egy nagy és dinamikus paletta.
+
+Látogat a írói hivatás pókháló oldal?
+www.lewismoten.com
+</About>
+	<BadNumber>EGY szám között {0} és {1} szükséges. A legközelebbi érték behelyezett.</BadNumber>
+	<SelectAColor>Kiválaszt egy befest:</SelectAColor>
+	<Recent>Újabb keletu:</Recent>
+	<WebSafe>
+		<Image tooltip="figyelem nem egy pókháló biztos befest"></Image>
+		<Color tooltip="Kettyenés -hoz kiválaszt pókháló biztos befest"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Rendben van</OK>
+		<Cancel>Áthúz</Cancel>
+		<About>Körülbelül</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Színárnyalat" measurement="°">S:</Hue>
+		<Saturation tooltip="Impregnálás" measurement="%">I:</Saturation>
+		<Brightness tooltip="Ragyogás" measurement="%">R:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} pzk({1}, {2}, {3})">
+		<Red tooltip="Piros">P:</Red>
+		<Green tooltip="Zöld">Z:</Green>
+		<Blue tooltip="Kék">K:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

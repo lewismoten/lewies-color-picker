@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Czech" code="cs">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Barevný Krumpác</Title>
+	<About>
+Lewies Barevný Krumpác
+lícení 1.1
+
+Tato brloh was jmenovat do Lewis Prášek do Moci of 2004.
+Ono predstírat clen urcitý barevný krumpác do jeden lidový grafika priložení.
+Ono darovat právo užívání jeden optický cesta až k chtít barevný dle jeden hojný a dynamický paleta.
+
+Být na návšteve clen urcitý spisovatele tkanivo blok?
+www.lewismoten.com
+	</About>
+	<BadNumber>JEDEN císlo mezi {0} a {1} is narídit. Blízký barevný tón dodat.</BadNumber>
+	<SelectAColor>Vybrat jeden barevný:</SelectAColor>
+	<Recent>Moderní:</Recent>
+	<WebSafe>
+		<Image tooltip="výstraha ani za mák tkanivo bezpecný barevný"></Image>
+		<Color tooltip="Cvaknout až k vybrat tkanivo bezpecný barevný"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>OK</OK>
+		<Cancel>Anulovat</Cancel>
+		<About>Kolem</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Barva" measurement="°">B:</Hue>
+		<Saturation tooltip="Nasycení" measurement="%">N:</Saturation>
+		<Brightness tooltip="Bystrost" measurement="%">B:</Brightness>
+	</HSB>
+	<RGB tooltip="#{0} cdk({1}, {2}, {3})">
+		<Red tooltip="Cerven">C:</Red>
+		<Green tooltip="Drn">D:</Green>
+		<Blue tooltip="Konzervativní">K:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

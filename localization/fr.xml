@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="French" code="fr">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Colorer Picker</Title>
+	<About>Picker de Couleur de Lewies
+la version 1.1
+
+Cette forme a été créée par Lewis Moten en mai de 2004.
+Il simule le picker de couleur dans une application de graphiques populaire.
+Il donne des utilisateurs qu'une façon visuelle pour choisir des couleurs d'une grand palette et une palette dynamique.
+
+Visite la page de toile d'auteurs?
+www.lewismoten.com
+</About>
+	<BadNumber>Un nombre entre {0} et {1}.  La valeur la plus proche a inséré.</BadNumber>
+	<SelectAColor>Privilégié une couleur:</SelectAColor>
+	<Recent>Récent:</Recent>
+	<WebSafe>
+		<Image tooltip="Avertissement: pas une toile une couleur sûre"></Image>
+		<Color tooltip="Le déclic pour choisir la toile couleur sûre"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Bien</OK>
+		<Cancel>Annuler</Cancel>
+		<About>De</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Teinte" measurement="°">T:</Hue>
+		<Saturation tooltip="Saturation" measurement="%">S:</Saturation>
+		<Brightness tooltip="Eclat" measurement="%">E:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rvb({1}, {2}, {3})">
+		<Red tooltip="Rouge">R:</Red>
+		<Green tooltip="Vert">V:</Green>
+		<Blue tooltip="Bleu">B:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Chinease" code="zh">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>颜色采摘者</Title>
+	<About>Lewies 颜色采摘者
+版本 1.1
+
+这种形式在 2004 年 5 月被刘易斯 Moten 创造。
+在流行的图像中模拟颜色采摘者申请。
+给用户从一个大和有活力的调色板挑选颜色的一种视觉的方式。
+
+作者结网于的访问翻阅？
+www.lewismoten.com
+</About>
+	<BadNumber>一个数字当中 {0} 和 {1} 需要。最接近地珍视插入。</BadNumber>
+	<SelectAColor>选择一种颜色：</SelectAColor>
+	<Recent>近来：</Recent>
+	<WebSafe>
+		<Image tooltip="警告：不是一张网是安全的颜色"></Image>
+		<Color tooltip="单击选择网是安全的颜色"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>好.</OK>
+		<Cancel>取消</Cancel>
+		<About>大约</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="叫喊" measurement="°">叫喊</Hue>
+		<Saturation tooltip="饱和" measurement="%">饱和</Saturation>
+		<Brightness tooltip="明亮" measurement="%">明亮</Brightness>
+	</HSB>
+		<RGB tooltip="魔法 = # {0}，红色 = {1}，蓝色 = {2}，格林 = {3}">
+		<Red tooltip="红色">红色</Red>
+		<Green tooltip="格林">格林</Green>
+		<Blue tooltip="Blue">蓝色</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Slovenian" code="sl">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>barva obirac</Title>
+	<About>klešcna celjust barva obirac
+prevod 1.1
+
+to obrazec was zagnati krik in vik z klešcna celjust prašek v maju od 2004.
+to pretvarjati se barva obirac v a ljudski grafika uporaba.
+to izrociti uporabnik a vizualen izuriti za hojo ali ježo po cesti v raje imeti barva s a velik ter energicen barvna sksla.
+
+kratek obisk pisec ujeti stran?
+www.lewismoten.com
+</About>
+	<BadNumber>a števnik med {0} ter {1} je zahtevati. blizu vrednost vriniti.</BadNumber>
+	<SelectAColor>izbrati a barva:</SelectAColor>
+	<Recent>Pravkar nastal:</Recent>
+	<WebSafe>
+		<Image tooltip="svarilen ne a ujeti varen barva"></Image>
+		<Color tooltip="udarjanje z nogo ob nogo prebrati ujeti varen barva"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>OK</OK>
+		<Cancel>Ukinitev</Cancel>
+		<About>Približno</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="barvni odtenek" measurement="°">B:</Hue>
+		<Saturation tooltip="zasicenost" measurement="%">Z:</Saturation>
+		<Brightness tooltip="svetloba" measurement="%">S:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} mzs({1}, {2}, {3})">
+		<Red tooltip="marksist">M:</Red>
+		<Green tooltip="zelen">Z:</Green>
+		<Blue tooltip="sinji">S:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Japanese" code="ja">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>色のピッカー</Title>
+	<About>ルイス色のピッカー
+版1.1
+
+この形態は2004 年の5 月のルイスMoten によって作成された。
+それは普及したグラフィックの塗布の色のピッカーを模倣する。
+それはユーザーに大きく、動的パレットからの色を選ぶ視覚方法を与える。
+
+著者のWeb ページを訪問しなさいか。
+www.lewismoten.com
+</About>
+	<BadNumber>その間数は{0} 及び{1} 要求される。最も近い価値は挿入した。</BadNumber>
+	<SelectAColor>色を選びなさい:</SelectAColor>
+	<Recent>最近:</Recent>
+	<WebSafe>
+		<Image tooltip="警告: ない網の金庫色"></Image>
+		<Color tooltip="網の金庫色を選ぶかちりと言う音"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>わかりました</OK>
+		<Cancel>取り消し</Cancel>
+		<About>について</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="色相" measurement="°">色相</Hue>
+		<Saturation tooltip="飽和" measurement="%">飽和</Saturation>
+		<Brightness tooltip="明るさ" measurement="%">明るさ</Brightness>
+	</HSB>
+		<RGB tooltip="ジンクス= #{0} 、赤= {1} 、緑= {2} 、青= {3}">
+		<Red tooltip="赤い">赤い</Red>
+		<Green tooltip="緑">緑</Green>
+		<Blue tooltip="青い">青い</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Italian" code="it">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Colorare il Raccoglitore.</Title>
+	<About>Raccoglitore di Colore di Lewies
+la versione 1.1
+
+Questa forma è stato creata da Lewis Moten in maggio di 2004.
+Simula il raccoglitore di colore in una domanda popolare grafica.
+Dà degli operatori che una maniera visuale per scegliere i colori da una tavolozza grand'e dinamica.
+
+Visita la pagina web di autori?
+www.lewismoten.com
+</About>
+	<BadNumber>Un numero tra {0} e {1} è richiesto. Valore il più vicino ha inserito.</BadNumber>
+	<SelectAColor>Scegliere un colore:</SelectAColor>
+	<Recent>Recente:</Recent>
+	<WebSafe>
+		<Image tooltip="Avvertimento: non una tela un colore sicuro"></Image>
+		<Color tooltip="Lo scatto di scegliere la tela colore sicuro"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Ok</OK>
+		<Cancel>Annullare</Cancel>
+		<About>Circa</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Sfumatura" measurement="°">S:</Hue>
+		<Saturation tooltip="Saturazione" measurement="%">S:</Saturation>
+		<Brightness tooltip="Luminosità" measurement="%">L:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rvb({1}, {2}, {3})">
+		<Red tooltip="Rosso">R:</Red>
+		<Green tooltip="Verde">V:</Green>
+		<Blue tooltip="Blu">B:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

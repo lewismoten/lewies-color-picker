@@ -1,35 +1,64 @@
-# Lewies Color Picker 1.0
+# Lewies Color Picker 1.1
 
-A Photoshop-style color picker for web pages, written in JavaScript in May 2004. Pick a hue from the
-vertical strip, then saturation and brightness from the large gradient square. The dialog shows the
-same color as HSB, RGB, Lab, CMYK and hex.
+A Photoshop-style color picker for web pages, written in JavaScript in 2004. Click a color field's
+eyedropper, then pick a color from the gradient square and the slider, or type it as HSB, RGB or hex.
 
-![Lewies Color Picker 1.0 in Internet Explorer, 2004](screenshot.jpg)
+| 1. Click an eyedropper | 2. Pick a color | 3. Press OK |
+|---|---|---|
+| ![Demo page with three color fields](docs/screenshots/v1.1-demo.png) | ![The color picker window](docs/screenshots/v1.1-popup.png) | ![Color 2 updated to 33C433](docs/screenshots/v1.1-demo-after.png) |
 
-*The original 2004 screenshot from the release ZIP (Internet Explorer on Windows XP).*
+| Saturation on the slider | Brightness on the slider |
+|---|---|
+| ![Saturation mode](docs/screenshots/v1.1-saturation.png) | ![Brightness mode](docs/screenshots/v1.1-brightness.png) |
+
+*The Netscape 7.1 build running in a current Chromium browser. The picker opens in its own window from
+`demo.htm`.*
+
+## What's new in 1.1
+
+- **Two builds:** `IE5.5+/` for Internet Explorer 5.5 and later, and `NS7.1/` for Netscape 7.1 and
+  Mozilla browsers. The Netscape build draws its gradients from PNG images instead of IE filters, which
+  is why it still works today.
+- **Choose the slider channel:** radio buttons put hue, saturation or brightness on the slider. The IE
+  build can also use red, green or blue.
+- **Recent colors** and an **About** box. A small cube appears when the color isn't web-safe.
+- **25 languages**, in `localization/*.xml`, set by the page or detected from the browser.
+- **Several color fields on one page:** `demo.htm` has three, each with an eyedropper button.
 
 ## Files
 
-| File | What it is |
+| Path | What it is |
 |---|---|
-| `ColorPicker.htm`, `ColorPicker.js`, `ColorPicker.css` | The color picker dialog |
-| `Demo.htm` | A page that opens the dialog from a colored box |
-| `*.gif`, `Color.cur` | Markers and the picker cursor |
+| `demo.htm` | Demo page; opens the IE build or the Netscape build |
+| `IE5.5+/` | Dialog for Internet Explorer 5.5 and later (`showModalDialog`) |
+| `NS7.1/` | Dialog for Netscape 7.1 and Mozilla (`window.open`) |
+| `localization/` | Language files |
+| `dropper.gif` | Eyedropper icon used on the demo page |
+| `readme.txt` | The original readme |
 
-## Browser support
+To try it, serve the folder over HTTP (for example `python3 -m http.server`), open `demo.htm` and click
+an eyedropper. Allow pop-ups for the page if your browser blocks the picker window.
 
-Version 1.0 was built for Internet Explorer 5.5 and later. It opens with `window.showModalDialog` and
-draws its gradients with IE's alpha filters, so the gradients don't appear in today's browsers. Version
-1.1 added a separate Netscape 7.1 (Mozilla) build that uses PNG gradients instead.
+## Version 1.0
 
-## History
+![Lewies Color Picker 1.0 in Internet Explorer, 2004](docs/screenshots/v1.0-ie-2004.jpg)
 
-- **1.0**, May 16, 2004 (this tag). Also published to Planet Source Code; a copy is in
-  [Lewies-Code-Library-PSC](https://github.com/lewismoten/Lewies-Code-Library-PSC/tree/master/JavaScript/LewiesColorPicker).
-- **1.1**, June 26, 2004 (tag `v1.1`).
+*The original 2004 screenshot of version 1.0 (Internet Explorer on Windows XP). This version also
+showed Lab and CMYK values.*
 
-In January 2006 I ported the HSB/RGB conversion from this picker to LSL for the color panel of my
-Particle Lab in Second Life ([3D Color Picker](https://dedricmauriac.wordpress.com/2006/01/28/3d-color-picker/)).
+Version 1.0 (May 16, 2004) is at tag [`v1.0`](../../tree/v1.0). It runs only in Internet Explorer: it
+opens with `showModalDialog`, which current browsers no longer support, and draws its gradients with IE
+filters. A copy is also in
+[Lewies-Code-Library-PSC](https://github.com/lewismoten/Lewies-Code-Library-PSC/tree/master/JavaScript/LewiesColorPicker).
 
-The source files are unchanged from the original release ZIP (`ColorPicker1.0.zip`, attached to the
-GitHub release). Commit dates are the newest file dates inside each ZIP.
+## Later use
+
+In January 2006 I ported this picker's HSB/RGB conversion to LSL for the color panel of my Particle Lab in
+Second Life ([3D Color Picker](https://dedricmauriac.wordpress.com/2006/01/28/3d-color-picker/)).
+
+## Provenance
+
+The source files in each tag are unchanged from the original release ZIPs, `ColorPicker1.0.zip` and
+`ColorPicker1.1.zip`. Both were linked from that 2006 post and hosted on Box, and both are attached to the
+GitHub releases. Commit dates are the newest file dates inside each ZIP. The screenshots and this README
+were added in 2026.

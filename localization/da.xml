@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Danish" code="da">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Kolorere Pillet</Title>
+	<About>Lewies Kolorere Pillet
+gengivelse 1.1
+
+Indeværende skema var skabt af Lewis Moten i maj måned i 2004.
+Sig simulerer den kolorere pillet i en populær grafik overførelse.
+Sig giver brugernes en synlig måde hen til gide farver af en stor og dynamisk palette.
+
+Opsøge den forfatteres web side?
+www.lewismoten.com
+</About>
+	<BadNumber>EN antal imellem {0} og {1} er krævede. Nærmeste værdi indlagt.</BadNumber>
+	<SelectAColor>Sluttet en kolorere:</SelectAColor>
+	<Recent>Nylig indtruffen</Recent>
+	<WebSafe>
+		<Image tooltip="advarende langt fra web sikker kolorere"></Image>
+		<Color tooltip="Falde i hak hen til sluttet web sikker kolorere"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Meget vel</OK>
+		<Cancel>Slette</Cancel>
+		<About>Omkring</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Cap" measurement="°">C:</Hue>
+		<Saturation tooltip="Gennemtrænge" measurement="%">G:</Saturation>
+		<Brightness tooltip="Klarheden" measurement="%">K:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rgb({1}, {2}, {3})">
+		<Red tooltip="Rød">R:</Red>
+		<Green tooltip="Grøn">G:</Green>
+		<Blue tooltip="Blå">B:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Finnish" code="fi">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Ihonväri Valikoitu</Title>
+	<About>Lewies Ihonväri Valikoitu
+käännös 1.1
+
+Nyt kuluva asu aiheuttaa luona Lewis Tomuhiukkanen kotona Toukokuu -lta 2004.
+Se jäljitellä ihonväri valikoitu kotona halpa grafiikka ahkeruus.
+Se kimmoisuus käyttäjä näkö elämäntapa jotta valikoida ihonväri polveutua avara ja dymaaminen kalvakka.
+
+Käynti alkuperä höyty hotellipoika?
+www.lewismoten.com
+</About>
+	<BadNumber>joukko kesken {0} ja {1} on tarvittaessa. Lakkauttaa arvo liite.</BadNumber>
+	<SelectAColor>Ensiluokkainen ihonväri:</SelectAColor>
+	<Recent>Taannoinen:</Recent>
+	<WebSafe>
+		<Image tooltip="varoittava ei höyty eheä ihonväri"></Image>
+		<Color tooltip="Click jotta ensiluokkainen höyty eheä ihonväri"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Ja lyh</OK>
+		<Cancel>Epuuttaa</Cancel>
+		<About>Jokseenkin</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Väri" measurement="°">V:</Hue>
+		<Saturation tooltip="Kyllästys" measurement="%">K:</Saturation>
+		<Brightness tooltip="Nero" measurement="%">N:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} pka({1}, {2}, {3})">
+		<Red tooltip="Puna">P:</Red>
+		<Green tooltip="Kokematon">K:</Green>
+		<Blue tooltip="Alakuloinen">A:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

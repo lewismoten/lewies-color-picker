@@ -1,0 +1,44 @@
+<?xml version="1.0" ?> 
+<language englishname="Dutch" localname="Nederlands" code="nl"> 
+<translators>
+	<translator name="Jos Krause" date="2004-05-27" />
+</translators>
+  <Fonts> 
+    <Font name="Arial" size="12pt" /> 
+  </Fonts> 
+  <Title>Kleuren Pallet</Title> 
+  <About> 
+Lewies Color Picker 
+version 1.1 
+ 
+Dit scherm is gemaakt door Lewis Moten in mei 2004. 
+Het simuleerd de kleuren-kiezer van een welbekende grafische applicatie. 
+Het geeft gebruikers een visuele manier om kleuren te kiezen uit een groot en dynamisch pallet. 
+ 
+Auteurs website bezoeken?
+www.lewismoten.com 
+  </About> 
+  <BadNumber>Een nummer tussen {0} en {1} is vereist. Dichtst bij zijnde waarde ingevoerd.</BadNumber> 
+  <SelectAColor>Selecteer een kleur:</SelectAColor> 
+  <Recent>Recent:</Recent> 
+  <WebSafe> 
+    <Image tooltip="Waarschuwing: niet een web-veilige kleur!"></Image> 
+    <Color tooltip="Klik om een web-veilige kleur te selecteren"></Color> 
+  </WebSafe> 
+  <Buttons> 
+    <OK>OK</OK> 
+    <Cancel>Annuleer</Cancel> 
+    <About>Info</About> 
+  </Buttons> 
+  <HSB> 
+    <Hue tooltip="Tint" measurement="°">H:</Hue> 
+    <Saturation tooltip="Verzadiging" measurement="%">S:</Saturation> 
+    <Brightness tooltip="Helderheid" measurement="%">B:</Brightness> 
+  </HSB> 
+  <RGB tooltip="#{0} rgb({1}, {2}, {3})"> 
+    <Red tooltip="Rood">R:</Red> 
+    <Green tooltip="Groen">G:</Green> 
+    <Blue tooltip="Blauw">B:</Blue> 
+  </RGB> 
+  <Hex>#</Hex> 
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Portuguese" code="pt">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Tinja Recolhedor</Title>
+	<About>Recolhedor de Cor de Lewies
+a versão 1.1
+
+Esta forma foi criada por Moten de LEWIS em maio de 2004.
+Simula o recolhedor de cor numa aplicação popular de gráficos.
+Dá um meio visual para operadores escolher cores de uma paleta dinâmica grande.
+
+Visite a página de teia de autores?
+www.lewismoten.com
+</About>
+	<BadNumber>Um número entre {0} e {1} é requerido. Valor próximo inseriu.</BadNumber>
+	<SelectAColor>Seleto uma cor:</SelectAColor>
+	<Recent>Recente:</Recent>
+	<WebSafe>
+		<Image tooltip="O aviso: não uma cor de cofre de teia"></Image>
+		<Color tooltip="O estalido selecionar teia cor segura"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Bom</OK>
+		<Cancel>Cancelamento</Cancel>
+		<About>Sobre</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Tom" measurement="°">T:</Hue>
+		<Saturation tooltip="Saturação" measurement="%">S:</Saturation>
+		<Brightness tooltip="Brilho" measurement="%">B:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} vva({1}, {2}, {3})">
+		<Red tooltip="Vermelho">V:</Red>
+		<Green tooltip="Verde">V:</Green>
+		<Blue tooltip="Azul">A:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Turkish" code="tr">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>bkz. colour seçmek</Title>
+	<About>Lewies bkz. colour seçmek
+yorum 1.1
+
+bu biçim was mahluk yaninda Lewis motel içinde -ebilmek -in 2004.
+o simulates belgili tanimlik bkz. colour seçmek içinde a sevilen çizge kullanma.
+o vermek kullanici a görsel yol -e dogru seçmek bkz. colour --dan a büyük ve dinamik soluk.
+
+ziyaret etmek belgili tanimlik yazar örümcek agi sayfa?
+www.lewismoten.com
+</About>
+	<BadNumber>A sayi arada {0} ve {1} bkz. be gerekli. kapatmak deger sokmak.</BadNumber>
+	<SelectAColor>seçme a bkz. colour:</SelectAColor>
+	<Recent>Yeni:</Recent>
+	<WebSafe>
+		<Image tooltip="Tembih degil a örümcek agi güvenlikte bkz. colour"></Image>
+		<Color tooltip="Tikirti -e dogru seçme örümcek agi güvenlikte bkz. colour"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>OK</OK>
+		<Cancel>Kaldirmak</Cancel>
+		<About>Hakkinda</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Renk" measurement="°">R:</Hue>
+		<Saturation tooltip="Saturation" measurement="%">S:</Saturation>
+		<Brightness tooltip="Aydinlik" measurement="%">A:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} kym({1}, {2}, {3})">
+		<Red tooltip="Kirmizi">K:</Red>
+		<Green tooltip="Yesil">Y:</Green>
+		<Blue tooltip="Mavi">M:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

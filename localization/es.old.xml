@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Spanish" code="es">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Colore Recogedor</Title>
+	<About>El Recogedor del Color de Lewies
+la versión 1.1
+
+Esta forma fue creada por Lewis Moten en el mayo de 2004.
+Simula el recogedor del color en una aplicación popular de la gráfica.
+Da a usuarios que una manera visual escoger los colores de una paleta grande y dinámica.
+
+¿Visita la página web de autores? 
+www.lewismoten.com
+</About>
+	<BadNumber>Un número entre {0} y {1} son requeridos. El valor más cercano metió.</BadNumber>
+	<SelectAColor>Selecto un color:</SelectAColor>
+	<Recent>Reciente:</Recent>
+	<WebSafe>
+		<Image tooltip="La advertencia: no una telaraña el color seguro"></Image>
+		<Color tooltip="El clic para escoger telaraña el color seguro"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Bueno</OK>
+		<Cancel>Cancele</Cancel>
+		<About>Acerca de</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="El matiz" measurement="°">M:</Hue>
+		<Saturation tooltip="La saturación" measurement="%">S:</Saturation>
+		<Brightness tooltip="El brillo" measurement="%">B:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rva({1}, {2}, {3})">
+		<Red tooltip="Rojo">R:</Red>
+		<Green tooltip="Verde">V:</Green>
+		<Blue tooltip="Azul">A:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

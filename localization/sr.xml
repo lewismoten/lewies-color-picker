@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Serbian (Cryllic)" code="sr">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Boja Berac</Title>
+	<About>Lewinsky Boja Berac
+prikaz 1.1
+
+Današji oblik je stvoren kod Lewis Cestica unutra Smjeti nad 2004.
+To glumiti odredeni clan boja berac unutra jedan popularan izracunavanje izdržljivosti pomocu grafickog prikaza aplikacija.
+To davati korisnik jedan vidni put za izabrati boja iz jedan velik pa dinamican paleta.
+
+Posjet odredeni clan autorstvo web stranica?
+www.lewismoten.com
+</About>
+	<BadNumber>JEDAN broj izmedu {0} pa {1} treba. Najbliži vrednost umetnut.</BadNumber>
+	<SelectAColor>Izabrati jedan boja:</SelectAColor>
+	<Recent>Skorašnji:</Recent>
+	<WebSafe>
+		<Image tooltip="Upozorenje ne jedan tkanje siguran boja"></Image>
+		<Color tooltip="Kuckati za izabrati tkanje siguran boja"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>OK</OK>
+		<Cancel>Otkazati</Cancel>
+		<About>Okolo</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Nijansa" measurement="°">N:</Hue>
+		<Saturation tooltip="Zasicenje" measurement="%">Z:</Saturation>
+		<Brightness tooltip="Svetlost" measurement="%">S:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} azp({1}, {2}, {3})">
+		<Red tooltip="Array">A:</Red>
+		<Green tooltip="Zelen">Z:</Green>
+		<Blue tooltip="Plav">P:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Romanian" code="ro">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Culoare Muraturi</Title>
+	<About>Lewies Culoare Muraturi
+traducere 1.1
+
+This format was a crea by Lewis Motel înauntru Mai de 2004.
+It simulates art.hot. culoare muraturi înauntru un popular grafic cerere.
+It a da users un visual way la spre a alege culoare de la un mare si dynamic palette.
+
+Visit art.hot. autor web pagina?
+www.lewismoten.com
+</About>
+	<BadNumber>UN numar between {0} si {1} is a cere. Închis value a insera.</BadNumber>
+	<SelectAColor>Select un culoare:</SelectAColor>
+	<Recent>A primi:</Recent>
+	<WebSafe>
+		<Image tooltip="Warning: nu un web în siguranta culoare"></Image>
+		<Color tooltip="Pocnitura la spre select web în siguranta culoare"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Bine</OK>
+		<Cancel>A anula</Cancel>
+		<About>Despre</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Hue" measurement="°">H:</Hue>
+		<Saturation tooltip="Saturation" measurement="%">S:</Saturation>
+		<Brightness tooltip="Brightness" measurement="%">B:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rva({1}, {2}, {3})">
+		<Red tooltip="Rosu">R:</Red>
+		<Green tooltip="Verde">V:</Green>
+		<Blue tooltip="Albastru">A:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

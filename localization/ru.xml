@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Russian" code="ru">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Цвет Picker</Title>
+	<About>Lewies Красят Picker
+версия 1.1
+
+Эта форма была создана Льюисом Мотеном в мае 2004.
+Это моделирует цвет picker в популярном графическом заявлении(применении).
+Это дает пользователям визуальный способ выбрать цвета из большой и динамической палитры.
+
+Посетите веб-страницу авторов?
+www.lewismoten.com
+</About>
+	<BadNumber>Число(Номер) между {0} и {1} требуется. Наиболее близкий вставленная ценность.</BadNumber>
+	<SelectAColor>Выберите цвет:</SelectAColor>
+	<Recent>Недавний:</Recent>
+	<WebSafe>
+		<Image tooltip="Предупреждение: не цвет сейфа сети(ткани)"></Image>
+		<Color tooltip="Щелчок, чтобы выбрать цвет сейфа сети(ткани)"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Хорошо</OK>
+		<Cancel>Отменить</Cancel>
+		<About>О</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Оттенок" measurement="°">О:</Hue>
+		<Saturation tooltip="Насыщенность" measurement="%">Н:</Saturation>
+		<Brightness tooltip="Яркость" measurement="%">Я:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} кзс({1}, {2}, {3})">
+		<Red tooltip="Красный">К:</Red>
+		<Green tooltip="Зеленый">З:</Green>
+		<Blue tooltip="Синий">С:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Swedish" code="sv">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Cologne Plockat</Title>
+	<About>Lewies Cologne Plockat
+version 1.1
+
+Den här form var skapade vid Lewis Motell i maj av 2004.
+Den simulerar den cologne plockat i en populär grafikerna applicering.
+Den gir förbrukaren en visuell väg till välja cologne från en stor och dynamisk paletten.
+
+Besöka författarna spindelväv sida?
+www.lewismoten.com
+</About>
+	<BadNumber>EN antal emellan {0} och {1} är krevad. Närmast värde satta in.</BadNumber>
+	<SelectAColor>Välja en cologne:</SelectAColor>
+	<Recent>Ny:</Recent>
+	<WebSafe>
+		<Image tooltip="varningen inte en smula spindelväv kassaskåp cologne"></Image>
+		<Color tooltip="Klick till välja spindelväv kassaskåp cologne"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>OK</OK>
+		<Cancel>Stryka</Cancel>
+		<About>Omkring </About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Färg" measurement="°">F:</Hue>
+		<Saturation tooltip="Genomdränka" measurement="%">G:</Saturation>
+		<Brightness tooltip="Klarheten" measurement="%">K:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} rgb({1}, {2}, {3})">
+		<Red tooltip="Röd">R:</Red>
+		<Green tooltip="Grön">G:</Green>
+		<Blue tooltip="Blå">B:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

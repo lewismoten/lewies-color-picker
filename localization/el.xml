@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Greek" code="el">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Συλλεκτική μηχανή χρώματος</Title>
+	<About>Συλλεκτική μηχανή χρώματος Lewies
+έκδοση 1.1
+
+Αυτή η μορφή δημιουργήθηκε από Lewis Moten το Μάιο του 2004.
+Μιμείται τη συλλεκτική μηχανή χρώματος σε μια δημοφιλή εφαρμογή γραφικής παράστασης.
+Δίνει στους χρήστες έναν οπτικό τρόπο να επιλέξει τα χρώματα από μια μεγάλη και δυναμική παλέτα.
+
+Επισκεφτείτε ιστοσελίδας συντακτών;
+www.lewismoten.com
+</About>
+	<BadNumber>Ένας αριθμός μεταξύ {0} και {1} απαιτείται. Πιό στενή αξία που παρεμβάλλεται.</BadNumber>
+	<SelectAColor>Επιλέξτε ένα χρώμα:</SelectAColor>
+	<Recent>Πρόσφατος:</Recent>
+	<WebSafe>
+		<Image tooltip="Προειδοποίηση: όχι ένα ασφαλές χρώμα Ιστού"></Image>
+		<Color tooltip="Χτυπήστε για να επιλέξετε το ασφαλές χρώμα Ιστού"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>Εντάξει</OK>
+		<Cancel>Ακυρώστε</Cancel>
+		<About>Περίπου</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Χρώμα" measurement="°">Χ:</Hue>
+		<Saturation tooltip="Κορεσμός" measurement="%">Κ:</Saturation>
+		<Brightness tooltip="Φωτεινότητα" measurement="%">Φ:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} κπμ({1}, {2}, {3})">
+		<Red tooltip="Κόκκινος">Κ:</Red>
+		<Green tooltip="Πράσινος">Π:</Green>
+		<Blue tooltip="Μπλε">Μ:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Polish" code="pl">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>Kolor Okazja</Title>
+	<About>Lewice Kolor Okazja
+wersja 1.1
+
+Ten wchodza w sklad byl wierzyciel przy Lewice Pylek w maju od 2004.
+Ono udaje ten kolor okazja w pewien ludowy grafika zgloszenie.
+Ono daje uzytkownik pewien wzrokowy droga wobec wybierac kolory z pewien duzy i dynamiczny paleta.
+
+Wizyta ten autorzy tkanina stronica?
+www.lewismoten.com
+</About>
+	<BadNumber>PEWIEN liczba pomiedzy {0} i {1} jest wymagany. Szczelniejszy wartosc wstawiony.</BadNumber>
+	<SelectAColor>Wybierac pewien kolor:</SelectAColor>
+	<Recent>Badanie:</Recent>
+	<WebSafe>
+		<Image tooltip="przestroga nie jeden tkanina kasa kolor"></Image>
+		<Color tooltip="Trzaskac wobec wybierac tkanina kasa kolor"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>W porzadku</OK>
+		<Cancel>Uniewaznic</Cancel>
+		<About>Okolo</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="Jakosc barwy " measurement="°">J:</Hue>
+		<Saturation tooltip="Nasycenie" measurement="%">N:</Saturation>
+		<Brightness tooltip="Ozywienie " measurement="%">O:</Brightness>
+	</HSB>
+		<RGB tooltip="#{0} czn({1}, {2}, {3})">
+		<Red tooltip="Czerwony">C:</Red>
+		<Green tooltip="Zielen">Z:</Green>
+		<Blue tooltip="Niebieski">N:</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>

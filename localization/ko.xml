@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<language localname="" englishname="Korean" code="ko">
+	<Fonts>
+		<Font name="Arial" size="12pt" />
+	</Fonts>
+	<Title>색깔 피커</Title>
+	<About>루이스 색깔 피커
+버전1.1
+
+이 모양은2004년의 5월안에 루이스Moten에의해 창조되었다.
+그것은 대중적인 도표 신청안에 색깔 피커를 가상한다.
+그것은 사용자에게 큰 동적인 팔레트에서 색깔을 선택하는 시각적인 방법을 준다.
+
+저자 웹 페이지를 방문하십시요?
+www.lewismoten.com
+</About>
+	<BadNumber>{0}과{1}사이 수는 요구된다. 삽입되는 가장 가까운 가치.</BadNumber>
+	<SelectAColor>색깔을 선정하십시요:</SelectAColor>
+	<Recent>최근:</Recent>
+	<WebSafe>
+		<Image tooltip="경고: 아니다 웹 안전 색깔"></Image>
+		<Color tooltip="웹 안전 색깔을 선정하는 누르기"></Color>
+	</WebSafe>
+	<Buttons>
+		<OK>좋습니다</OK>
+		<Cancel>취소</Cancel>
+		<About>에 관하여</About>
+	</Buttons>
+	<HSB>
+		<Hue tooltip="색상" measurement="°">색상</Hue>
+		<Saturation tooltip="포화" measurement="%">포화</Saturation>
+		<Brightness tooltip="광도" measurement="%">광도</Brightness>
+	</HSB>
+		<RGB tooltip="여자 마법사=#{0}, 빨강={1}, 녹색={2}, 파랑={3}">
+		<Red tooltip="빨간">빨간</Red>
+		<Green tooltip="녹색">녹색</Green>
+		<Blue tooltip="파란">파란</Blue>
+	</RGB>
+	<Hex>#</Hex>
+</language>
